@@ -44,6 +44,7 @@ export default function App(){
    
   return (
     <>
+    
     <div className="tweet-settings">
       <h3>Tweet ayarları</h3>
       <ul>
@@ -101,6 +102,7 @@ export default function App(){
         </li>
       </ul>
     </div>
+   
      <div className="tweet-container">
       <div className="tweet">
         <div className="tweet-author">
@@ -126,8 +128,8 @@ export default function App(){
         <span><DownloadIcon/></span>
       </div>
     </div>
-
-   </div>
+</div>
+  
    </>
   );
 }
